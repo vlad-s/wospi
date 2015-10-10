@@ -1,5 +1,6 @@
 # wospi
 world wide web word crawler for generating wordlists
+![alt tag](http://i.imgur.com/OY73bxd.png)
 
 ## Installation
 Clone the github repo:
