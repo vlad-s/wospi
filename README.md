@@ -14,6 +14,7 @@ You only need _requests_ and _BeautifulSoup_.
 First set up a virtualenv
 ```bash
 virtualenv env
+source env/bin/activate
 ```
 After that, you can either
 ```bash
