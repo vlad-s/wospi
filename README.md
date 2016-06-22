@@ -27,3 +27,5 @@ pip install -r requirements.txt
 ```
 
 Happy crawling!
+
+[![ghit.me](https://ghit.me/badge.svg?repo=vlad-s/wospi)](https://ghit.me/repo/vlad-s/wospi)
