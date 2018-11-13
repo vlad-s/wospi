@@ -1,29 +1,17 @@
 # wospi
-world wide web word crawler for generating wordlists
-![alt tag](http://i.imgur.com/OY73bxd.png)
 
-## Installation
-Clone the github repo:
-```bash
-git clone https://github.com/vlad-s/wospi
+![wospi running under windows](https://i.imgur.com/lPSY5CW.png)
+
+## What?
+A simple CLI app which scrapes the provided URL in order to generate a wordlist
+of the words found in the results' bodies.
+
+## Installing & running
+All you need to do is grab the project via `go` and run the executable:
+
+```sh
+$ go get -u github.com/vlad-s/wospi
+$ wospi --help
 ```
 
-## Prerequisite packages
-You only need _requests_ and _BeautifulSoup_.
-
-## Setting it all up
-First set up a virtualenv
-```bash
-virtualenv env
-source env/bin/activate
-```
-After that, you can either
-```bash
-pip install requests[security] beautifulsoup4
-```
-Or
-```bash
-pip install -r requirements.txt
-```
-
-Happy crawling!
+Just as a note, the binary is going to be named `wospi.exe` under Windows.
